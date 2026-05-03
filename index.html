@@ -32,6 +32,20 @@
             text-align: center;
         }
 
+        .logo-banner {
+            width: 100%;
+            max-height: 200px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .logo-banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
         header {
             margin-bottom: 40px;
         }
@@ -153,11 +167,19 @@
             .features {
                 grid-template-columns: 1fr;
             }
+
+            .logo-banner {
+                max-height: 150px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <div class="logo-banner">
+            <img src="CalicoLogo.png" alt="Calico Logo">
+        </div>
+
         <header>
             <h1>🎨 Calico</h1>
             <p class="tagline">Beautiful, Simple, and Elegant</p>
